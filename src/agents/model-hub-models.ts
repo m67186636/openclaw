@@ -39,9 +39,7 @@ function inferReasoning(modelId: string): boolean {
     lower.includes("r1") ||
     lower.includes("reasoning") ||
     lower.includes("think") ||
-    lower.includes("o1") ||
-    lower.includes("o3") ||
-    lower.includes("o4")
+    /\bo[134]\b/.test(lower)
   );
 }
 

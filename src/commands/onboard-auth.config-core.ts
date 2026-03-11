@@ -492,7 +492,7 @@ export function applyModelHubProviderConfig(cfg: OpenClawConfig): OpenClawConfig
       name: "Model Hub Auto(Gemini 3 Flash Preview)",
       reasoning: false,
       input: ["text", "image"],
-      cost: { input: 1600000, output: 9600000, cacheRead: 0, cacheWrite: 0 },
+      cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
       contextWindow: 128000,
       maxTokens: 8192,
     },

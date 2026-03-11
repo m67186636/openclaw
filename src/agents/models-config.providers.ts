@@ -528,8 +528,8 @@ const SIMPLE_IMPLICIT_PROVIDER_LOADERS: ImplicitProviderLoader[] = [
     ...(await buildKilocodeProviderWithDiscovery()),
     apiKey,
   })),
-  withApiKey("model-hub", async ({ apiKey }) => ({
-    ...(await buildModelHubProviderWithDiscovery(apiKey)),
+  withApiKey("model-hub", async ({ apiKey, discoveryApiKey }) => ({
+    ...(await buildModelHubProviderWithDiscovery(discoveryApiKey)),
     apiKey,
   })),
 ];

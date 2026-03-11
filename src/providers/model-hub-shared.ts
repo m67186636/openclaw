@@ -1,6 +1,5 @@
 export const MODEL_HUB_BASE_URL = "https://api.model-hub.cn/v1";
 export const MODEL_HUB_DEFAULT_MODEL_ID = "gemini-3-flash-preview";
-export const MODEL_HUB_DEFAULT_MODEL_REF = MODEL_HUB_DEFAULT_MODEL_ID;
 export const MODEL_HUB_DEFAULT_MODEL_NAME = "Model Hub Auto(Gemini 3 Flash Preview)";
 export type ModelHubModelCatalogEntry = {
   id: string;
