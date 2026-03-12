@@ -33,7 +33,7 @@ export MODEL_HUB_API_KEY=your-api-key
 
 ```json5
 {
-  agents: { defaults: { model: { primary: "model-hub/auto" } } },
+  agents: { defaults: { model: { primary: "model-hub/gemini-3-flash-preview" } } },
 }
 ```
 

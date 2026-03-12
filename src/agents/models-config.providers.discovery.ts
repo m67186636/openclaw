@@ -11,7 +11,6 @@ import {
 } from "./huggingface-models.js";
 import { discoverKilocodeModels } from "./kilocode-models.js";
 import { discoverModelHubModels } from "./model-hub-models.js";
-import { OLLAMA_NATIVE_BASE_URL } from "./ollama-stream.js";
 import {
   enrichOllamaModelsWithContext,
   OLLAMA_DEFAULT_CONTEXT_WINDOW,
@@ -21,6 +20,7 @@ import {
   resolveOllamaApiBase,
   type OllamaTagsResponse,
 } from "./ollama-models.js";
+import { OLLAMA_NATIVE_BASE_URL } from "./ollama-stream.js";
 import { discoverVeniceModels, VENICE_BASE_URL } from "./venice-models.js";
 import { discoverVercelAiGatewayModels, VERCEL_AI_GATEWAY_BASE_URL } from "./vercel-ai-gateway.js";
 
